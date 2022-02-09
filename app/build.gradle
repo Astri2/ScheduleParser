@@ -1,0 +1,20 @@
+plugins {
+    id'java'
+}
+
+version '1.0'
+
+repositories {
+    maven {
+        name 'm2-dv8tion'
+        url 'https://m2.dv8tion.net/releases'
+    }
+    mavenCentral()
+}
+
+dependencies {
+implementation 'org.jetbrains:annotations:20.1.0'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
